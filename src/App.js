@@ -1,6 +1,14 @@
 import React from 'react'
 import './App.css'
 
-const App = () => <h1>App</h1>
+import Header from './components/Header'
+import PostList from './components/PostList'
+
+const App = () => (
+  <>
+    <Header />
+    <PostList />
+  </>
+)
 
 export default App
